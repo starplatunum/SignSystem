@@ -17,12 +17,10 @@ public class Course extends BmobObject {
         return classNum;
     }
 
+
+
     public void setClassNum(String classNum) {
         this.classNum = classNum;
-    }
-
-    public String getTeacherNum() {
-        return teacherNum;
     }
 
     public void setTeacherNum(String teacherNum) {
@@ -37,9 +35,7 @@ public class Course extends BmobObject {
         this.className = className;
     }
 
-    public String getTeachTime() {
-        return teachTime;
-    }
+
 
     public void setTeachTime(String teachTime) {
         this.teachTime = teachTime;
