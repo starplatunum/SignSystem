@@ -15,7 +15,7 @@ public class Course extends BmobObject {
 
     public String getClassNum() {
         return classNum;
-    }//
+    }
 
     public void setClassNum(String classNum) {
         this.classNum = classNum;
