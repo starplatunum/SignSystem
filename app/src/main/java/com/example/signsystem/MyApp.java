@@ -21,7 +21,7 @@ public class MyApp extends Application {
     public void onCreate() {
         super.onCreate();
         Bmob.initialize(this, "c07ba07454ffc6ac7aee9c1a2d979676");
-        initData();
+        //initData();
     }
 
     public void initData() {
